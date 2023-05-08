@@ -10,3 +10,9 @@ Class CommandUser(PlayerBase):
  Commands = {
    'help' : CommandUser.help,
  }
+
+
+print("Type help to see commands")
+player = CommandUser
+
+player.input('What Command do you choose?')
